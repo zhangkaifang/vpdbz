@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "vpdbz"
+version = "0.1.0"
+description = "Python debug configuration generator for vscode"
+authors = ["kf.zhang <kf.zhang@shunwang.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.4"
+setuptools = "^71.1.0"
+wheel = "^0.43.0"
+jstyleson = "^0.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
