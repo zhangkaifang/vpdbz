@@ -9,6 +9,7 @@ pip install vpdbz
 ## 命令行工具
 
 使用`Python`命令行生成`VSCode`调试配置。
+
 只需在`Python`命令前加上`vpdbz`，它就能自动生成`VSCode`的调试配置文件。它会正确解析环境变量和参数列表。
 
 例如：
