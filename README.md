@@ -6,6 +6,7 @@
 ```shell
 pip install vpdbz
 ```
+
 ## 命令行工具
 
 使用`Python`命令行生成`VSCode`调试配置。
