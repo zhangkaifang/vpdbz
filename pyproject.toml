@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "vpdbz"
-version = "0.2.0"
+version = "0.3.0"
 description = "Python debug configuration generator for vscode"
 authors = ["kf.zhang <kf.zhang@shunwang.com>"]
 readme = "README.md"
