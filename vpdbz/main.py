@@ -6,7 +6,7 @@ import os
 import jstyleson as json
 from pprint import pprint
 
-if __name__ == "__main__":
+def main():
     cwd = os.getcwd()
     if "python" in sys.argv:
         python_idx = sys.argv.index("python")
@@ -56,4 +56,7 @@ if __name__ == "__main__":
     if not os.path.exists('.vscode'):
         os.makedirs('.vscode')
     with open('.vscode/launch.json', 'w') as f:
-        json.dump(launch, f, indent=4)
+        json.dump(launch, f, indent=4)    
+
+if __name__ == "__main__":
+    main()
