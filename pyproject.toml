@@ -14,7 +14,7 @@ wheel = "^0.43.0"
 jstyleson = "^0.0.2"
 
 [tool.poetry.scripts]
-vpdbz = "vpdbz.main:__main__"
+vpdbz = "vpdbz.main:main"
 
 [build-system]
 requires = ["poetry-core"]
